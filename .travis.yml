@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: E1Mh07tlTYyJeed1MPXZ+/pbGE1pcQThIS/hZirJrJluwkIklppu691toZNN1qMYbirooLwqnINM93PDTeTMvWiOVKbyFi0BJqF9Dodp/r3w3Ylq4rnj3UyyMOSbtvgIAqrA0UWsTIQ7GIkcceyeyp1ryZ/ONAok4dw/Xvq/BYNxO03l6B32Sa1TviEpKkeHCVJySMinwH4wuyzqBdwYfnidR2sHTmzXN4tue0DYuOGV9HGw+l+yQ4HkZB0bUeAMwIQhT56l45QE/O/zkYJaZALCxIRstX8f5c3UbEL7R1bwhqnlF5y+pUpdM4/6RMed9terZqmgpz22s3qXf3stz+fshFnIqljAgF9dPSrHH+3ASkX2movlsE6xVoACbviG6K6RwCPcWbJo7C2VezepKypFwulcCpaShpjHZVdkS9s4NR/SBOkdNVkK7SM+nr2+AmEg19ptUBwp5DiGr0FkbOzGzNsxQja5XAczTwPJsG3T+z/Nk1FyuZjKo8XCoJm6glEQKuCy4VvHyny5doPi1E9TmjNu3I20JecIDxJsFm9H7Wek9/98Gz/Dvl9kS1PjvvHbBDWphs28OP9wQAfDwdr7huCFDtkpQtiqA5B8KNcz2bW5tzDel1QD4dkVj3BNrcJc84LPCTEpCe/W3ti/F0ffsA0rI9926KF7uLTMLXg=
+  app: thawing-brook-94562
+  on:
+    repo: eswoodard/blog_api
